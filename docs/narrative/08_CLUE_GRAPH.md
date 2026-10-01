@@ -16,7 +16,7 @@
 |C12|Attendance sheet|2012|M|8 signatures + 09 mark|Clerical error|Role was operational|C03|Ch7|No|
 |C13|Teacher folder|Vân memo|M|“Không đưa vào chương trình”|Editing note|Incident hidden from public story|C06|Ch8|No|
 |C14|Wall timetable|2012|O|00:17 slot remains|Printing mistake|After-hours duty|C07|Ch2|No|
-|C15|Security log|Lộc note|M|“một học sinh chạy ngược”|Unknown student|Minh responding to injury|C06|Ch5|No|
+|C15|Security log|Lộc note|M|“một học sinh chạy ngược”|Unknown student|Minh responding to injury; documentary half of KCR-B threshold|C06|Ch5|KCR-B with phuong_testimony|
 |C16|Stair rail|Physical mark|O|Fresh-looking scrape|Recent damage|KCR mirrors old path|C15|Ch5|Yes KCR-B|
 |C17|Phone|Khang voice note|M|“Không phải một người.”|He changed his mind|Midpoint seed|C10|Ch4|No|
 |C18|Photo metadata|Archive scan|O|Three filenames, same 09 tag|Corrupted metadata|Role tag is shared|C10|Ch4|No|
@@ -36,7 +36,7 @@
 |C32|Phương testimony|M|“Minh có mặt.”|One witness|Minh was first Ninth occupant|C31|Ch8|No|
 |C33|Raw audio full|M|Minh identifies himself, then stops|Proof of identity|Role and witness overlap|C32|Ch8|Yes KCR-E|
 |C34|Archive index|O|09 points to multiple dates|Bad indexing|Cross-generation role|C29|Ch4|No|
-|C35|Khang signal|M|Message arrives from old PA line|Phone spoofing|Khang is in Ninth-state|C27|Ch6|Yes KCR-F|
+|C35|Khang signal|M|Message arrives from old PA line|Phone spoofing|Khang is in Ninth-state; seed for final hidden route|C27|Ch6|KCR-F seed only; full trigger Ch9|
 |C36|Final archive packet|M|A blank signature line becomes “09 — current witness”|System error|Protagonist risk|C33,C35|Ch9|KCR-H|
 
 ## Recovery design
@@ -48,3 +48,10 @@
 
 ## Clue fairness rule
 No final conclusion depends on a single unique artifact. Every major reveal has at least two independent evidence paths.
+
+
+## Production trigger refinements
+- KCR-B requires C15 plus `phuong_testimony` plus player arrival at the historical route; C15 alone does not trigger a reality change.
+- C35 is discovered in Ch6 but is only a route seed. KCR-F additionally requires `knowledge_2012_incident`, `knowledge_khang_state`, and an explicit hidden-route attempt in Ch9.
+- KCR-E is tied to C33 raw audio and therefore occurs in Ch8, not Ch7.
+- KCR-H is tied to the concrete witness-designation action in Ch9 and is not triggered by evidence preservation alone.

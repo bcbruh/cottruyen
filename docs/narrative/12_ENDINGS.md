@@ -20,6 +20,7 @@ Requirements:
 - high evidence completeness;
 - An understands KCR;
 - player accepts the final archive designation rather than destroying the system.
+- Action B is selected, setting `witness_burden = true`.
 
 Result:
 The archive records `09 — current witness`. Khang returns, but An disappears from one old photo in a way no one questions. The final chair remains. The exact metaphysics stay unresolved.
@@ -28,7 +29,8 @@ Theme payoff: preserving truth can make the witness part of the institution's bu
 
 ### Ending C — “Không ai là người thứ chín”
 Requirements:
-- player destroys or withholds the final evidence needed to stabilize KCR;
+- player destroys or withholds the final evidence needed to stabilize the current role;
+- Action C is selected;
 - Khang escapes through the unresolved route;
 - key understanding remains incomplete.
 
@@ -49,4 +51,4 @@ Public history remains clean. Months later, a new student finds a timetable with
 Theme payoff: the clean record outlives the truth it excluded.
 
 ## Ending fairness
-Every ending is foreshadowed. None depends on hidden morality arithmetic. Ending differences come from evidence, understanding, preservation, and specific choices.
+Every ending is foreshadowed. None depends on hidden morality arithmetic. Ending differences come from evidence, understanding, preservation, witness designation, and specific choices. KCR-H occurs only on Ending B because only that ending explicitly assigns the present witness role.

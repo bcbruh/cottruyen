@@ -1,117 +1,173 @@
-[
-  {
-    "path": ".agents/skills/narrative-project/SKILL.md",
-    "bytes": 4469,
-    "sha256": "b63c63664f1857365a04edab1cfbb7c1a971ecae6dc148eb515ee2a2d00f4f00"
-  },
-  {
-    "path": "README.md",
-    "bytes": 886,
-    "sha256": "e9a0f9f3a44a2e10337ef91c9230c799f4a51429cfc3cd6a3a1d3d64b436e66e"
-  },
-  {
-    "path": "docs/narrative/00_NARRATIVE_STATUS.md",
-    "bytes": 3669,
-    "sha256": "0919e91ecf9bc1a238a472db005ca5a943d708dbd75274c9918373f8bd7c8393"
-  },
-  {
-    "path": "docs/narrative/01_CORE_PILLARS.md",
-    "bytes": 1646,
-    "sha256": "057735ca5ab7534df440b0bdf18b798006d6e6c4f1e05ea863535b162af7b76d"
-  },
-  {
-    "path": "docs/narrative/02_STORY_OPTIONS.md",
-    "bytes": 3348,
-    "sha256": "aea87651c4dfad5094ea110313f9b2cef1fd4f3354e91f445eaf308c85f6abb9"
-  },
-  {
-    "path": "docs/narrative/03_CRITIQUE_AND_SELECTION.md",
-    "bytes": 2265,
-    "sha256": "c3145d94c3c9de6eec2dfb5b509c0ef8031cc909b0505ba6fcc30223be14d71a"
-  },
-  {
-    "path": "docs/narrative/04_CANON_STORY.md",
-    "bytes": 6636,
-    "sha256": "efc7cb0256d375ca4d6c4d94a404c995e29e9bb5f15c4ccd248aaff2871fc712"
-  },
-  {
-    "path": "docs/narrative/05_CHARACTERS.md",
-    "bytes": 5165,
-    "sha256": "8640d8fe1ed7df682ccf0d41f14f9503da1cc4c1142670b3764973b788992fc3"
-  },
-  {
-    "path": "docs/narrative/06_CANONICAL_TIMELINE.md",
-    "bytes": 2882,
-    "sha256": "c7ed9bbe0e18546b2e226f8807ed09140f83ddf5040e9c8829960fd4be5a3458"
-  },
-  {
-    "path": "docs/narrative/07_MYSTERY_ARCHITECTURE.md",
-    "bytes": 2519,
-    "sha256": "1300f639ce3546a72c4abb6cde284f96c5c24e7b7fc651db8a936de50c0c2b56"
-  },
-  {
-    "path": "docs/narrative/08_CLUE_GRAPH.md",
-    "bytes": 4626,
-    "sha256": "1704d183b6da7b2a6113041e8d18231838603ebac9a39bf17b3780a6089c9c16"
-  },
-  {
-    "path": "docs/narrative/09_KCR_MATRIX.md",
-    "bytes": 3053,
-    "sha256": "c558955375d339b580e5de2f56546e948dd56a2f086ed055d1ae0693c7a03ac4"
-  },
-  {
-    "path": "docs/narrative/10_CHAPTER_BIBLE.md",
-    "bytes": 5665,
-    "sha256": "f1979c8e92bc461da655d29267ae5525394d20e02d455a760077a47217c6f152"
-  },
-  {
-    "path": "docs/narrative/11_CHAPTER_01_VERTICAL_SLICE.md",
-    "bytes": 5621,
-    "sha256": "c91d787f3d58f149d6935e79cc1a491b3c0227a138f6b7d87d89816990009be6"
-  },
-  {
-    "path": "docs/narrative/12_ENDINGS.md",
-    "bytes": 2226,
-    "sha256": "f18cc81a85728c60af7319316818e530883f6a05c80902954ce8a4c4a490bdff"
-  },
-  {
-    "path": "docs/narrative/13_FORESHADOW_PAYOFF_MATRIX.md",
-    "bytes": 1351,
-    "sha256": "d3c339f704416f90a0673f9c664da71e155befed686f8a9c3f30cc751ddfbb82"
-  },
-  {
-    "path": "docs/narrative/14_NARRATIVE_QA.md",
-    "bytes": 2457,
-    "sha256": "5bd48110e082373b225550a1346c08c0530843b71b8ee0de9c3e19fd08215364"
-  },
-  {
-    "path": "docs/narrative/15_DECISION_LOG.md",
-    "bytes": 3841,
-    "sha256": "d115e5a13bb6e2ebd783bef2425f61688be9d2d4e1d973d9f2f4111ba7dc7f90"
-  },
-  {
-    "path": "docs/narrative/16_EVIDENCE_CATALOG.md",
-    "bytes": 4864,
-    "sha256": "811fb2a318c069bc15f78c3a0f02218b03687d275941cc43053907f62f017917"
-  },
-  {
-    "path": "docs/narrative/17_RED_TEAM.md",
-    "bytes": 8455,
-    "sha256": "012e17700636b8931431edc6f0a1980c55b83911d7b8d39a2d7c9a7d4483aa20"
-  },
-  {
-    "path": "docs/narrative/18_IMPLEMENTATION_HANDOFF.md",
-    "bytes": 1484,
-    "sha256": "b30efc774262c2e8b08e75bca9558c5ca6134750b92b796e8a30444dcae2aae6"
-  },
-  {
-    "path": "docs/narrative/19_SKILL_TEST_RESULTS.md",
-    "bytes": 1833,
-    "sha256": "f8042ca0c2537e2fabd1e2b000b26752315d555406fa6316d7e4b0927f40b1e1"
-  },
-  {
-    "path": "docs/narrative/RESEARCH_AND_SKILL_AUDIT.md",
-    "bytes": 2233,
-    "sha256": "41cdf93714d8f36d4c6bf0a3d8a70ad8d662ba6a0114731348bce775656f723e"
-  }
-]
+{
+  "project": "NGƯỜI THỨ CHÍN",
+  "canon_version": "NAR-CANON-v1.0",
+  "production_version": "NAR-PRODUCTION-v1.1",
+  "file_count": 34,
+  "files": [
+    {
+      "path": ".agents/skills/narrative-project/SKILL.md",
+      "bytes": 4469,
+      "sha256": "b63c63664f1857365a04edab1cfbb7c1a971ecae6dc148eb515ee2a2d00f4f00"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1480,
+      "sha256": "7be96d927fda7afad15b10ed914b39d1f363cfdaeeec6cadca674ad6f9c007c3"
+    },
+    {
+      "path": "SYNC_TO_COTTRUYEN.ps1",
+      "bytes": 854,
+      "sha256": "4cbe0334f30b5b77d8b9c4686443cbff793330d36c0562b2835c7e60848de1f8"
+    },
+    {
+      "path": "docs/narrative/00_NARRATIVE_STATUS.md",
+      "bytes": 4508,
+      "sha256": "7fa9f8591a4e9a5ea8c41386df7d0b2631e497ba5e1b9195e6514fd7fbabceb0"
+    },
+    {
+      "path": "docs/narrative/01_CORE_PILLARS.md",
+      "bytes": 1646,
+      "sha256": "057735ca5ab7534df440b0bdf18b798006d6e6c4f1e05ea863535b162af7b76d"
+    },
+    {
+      "path": "docs/narrative/02_STORY_OPTIONS.md",
+      "bytes": 3348,
+      "sha256": "aea87651c4dfad5094ea110313f9b2cef1fd4f3354e91f445eaf308c85f6abb9"
+    },
+    {
+      "path": "docs/narrative/03_CRITIQUE_AND_SELECTION.md",
+      "bytes": 2265,
+      "sha256": "c3145d94c3c9de6eec2dfb5b509c0ef8031cc909b0505ba6fcc30223be14d71a"
+    },
+    {
+      "path": "docs/narrative/04_CANON_STORY.md",
+      "bytes": 6636,
+      "sha256": "efc7cb0256d375ca4d6c4d94a404c995e29e9bb5f15c4ccd248aaff2871fc712"
+    },
+    {
+      "path": "docs/narrative/05_CHARACTERS.md",
+      "bytes": 5165,
+      "sha256": "8640d8fe1ed7df682ccf0d41f14f9503da1cc4c1142670b3764973b788992fc3"
+    },
+    {
+      "path": "docs/narrative/06_CANONICAL_TIMELINE.md",
+      "bytes": 2882,
+      "sha256": "c7ed9bbe0e18546b2e226f8807ed09140f83ddf5040e9c8829960fd4be5a3458"
+    },
+    {
+      "path": "docs/narrative/07_MYSTERY_ARCHITECTURE.md",
+      "bytes": 2875,
+      "sha256": "62f05d01334f8b7189b1cc4c5245e5532b293aeee027f4096a4a91259be9c528"
+    },
+    {
+      "path": "docs/narrative/08_CLUE_GRAPH.md",
+      "bytes": 5280,
+      "sha256": "6f427f5034a83834ad2f566f7234c46caf5130f024680233143987b8e31a1d43"
+    },
+    {
+      "path": "docs/narrative/09_KCR_MATRIX.md",
+      "bytes": 5400,
+      "sha256": "517c2e4cbb52f0d8091e9a88d7d8831bc45c254459e82aa868c7260f4c33f5f2"
+    },
+    {
+      "path": "docs/narrative/10_CHAPTER_BIBLE.md",
+      "bytes": 4708,
+      "sha256": "7b952cfc78850b36990ef90495a42b4c8c8f8679fe700fdd95a433521ff438dd"
+    },
+    {
+      "path": "docs/narrative/11_CHAPTER_01_VERTICAL_SLICE.md",
+      "bytes": 5621,
+      "sha256": "c91d787f3d58f149d6935e79cc1a491b3c0227a138f6b7d87d89816990009be6"
+    },
+    {
+      "path": "docs/narrative/12_ENDINGS.md",
+      "bytes": 2441,
+      "sha256": "075d23c369dd00cb8e9dbd5766bcc11d696b10847725a6d17e866ac0446f36f3"
+    },
+    {
+      "path": "docs/narrative/13_FORESHADOW_PAYOFF_MATRIX.md",
+      "bytes": 1351,
+      "sha256": "d3c339f704416f90a0673f9c664da71e155befed686f8a9c3f30cc751ddfbb82"
+    },
+    {
+      "path": "docs/narrative/14_NARRATIVE_QA.md",
+      "bytes": 6124,
+      "sha256": "b773d77c490438a0f56134d55a4a0f50eaebb660efe94175f8d990d318d86ff0"
+    },
+    {
+      "path": "docs/narrative/15_DECISION_LOG.md",
+      "bytes": 6395,
+      "sha256": "2a1a4ec9ec1a049708ca2bdd00b159a5c7236d22b8601175f6870f7776bdd7a8"
+    },
+    {
+      "path": "docs/narrative/16_EVIDENCE_CATALOG.md",
+      "bytes": 4864,
+      "sha256": "811fb2a318c069bc15f78c3a0f02218b03687d275941cc43053907f62f017917"
+    },
+    {
+      "path": "docs/narrative/17_RED_TEAM.md",
+      "bytes": 8455,
+      "sha256": "012e17700636b8931431edc6f0a1980c55b83911d7b8d39a2d7c9a7d4483aa20"
+    },
+    {
+      "path": "docs/narrative/18_IMPLEMENTATION_HANDOFF.md",
+      "bytes": 4045,
+      "sha256": "70072c58cbb1c320b9d2a42c651bcbba5e64b5b3111d43e4c3414d38835829f3"
+    },
+    {
+      "path": "docs/narrative/19_SKILL_TEST_RESULTS.md",
+      "bytes": 1833,
+      "sha256": "f8042ca0c2537e2fabd1e2b000b26752315d555406fa6316d7e4b0927f40b1e1"
+    },
+    {
+      "path": "docs/narrative/20_CHAPTER_02_PRODUCTION.md",
+      "bytes": 11326,
+      "sha256": "de977d5e925c79e6f6c21550438e55812c70ca6f4f7995c88e3af0461be175e0"
+    },
+    {
+      "path": "docs/narrative/21_CHAPTER_03_PRODUCTION.md",
+      "bytes": 11134,
+      "sha256": "8ce9abdb57afe49aea780bd9696ddc39237b0d3e48e254c6b3e1a2fcb77cf30c"
+    },
+    {
+      "path": "docs/narrative/22_CHAPTER_04_PRODUCTION.md",
+      "bytes": 11565,
+      "sha256": "a997c7252208947e3686aa3c95d201ad12077f7fb805b2e8ae0ce5ce5dfd8882"
+    },
+    {
+      "path": "docs/narrative/23_CHAPTER_05_PRODUCTION.md",
+      "bytes": 12782,
+      "sha256": "a35e3bf52de77f4076fb2755f77a2fd017d49b20ccf2505a6b3c4fbe78639987"
+    },
+    {
+      "path": "docs/narrative/24_CHAPTER_06_PRODUCTION.md",
+      "bytes": 12529,
+      "sha256": "c2642f0eea529e91605f80ccb18e5d30084796c1a524c663b336a73d88a35731"
+    },
+    {
+      "path": "docs/narrative/25_CHAPTER_07_PRODUCTION.md",
+      "bytes": 12010,
+      "sha256": "24bc6359e3dc42a7a01227f6039588eb275386b1479c1457466663aad730ba73"
+    },
+    {
+      "path": "docs/narrative/26_CHAPTER_08_PRODUCTION.md",
+      "bytes": 13027,
+      "sha256": "ce635b4a6c7db49be02ce05102d4ab8195116c2fc9ba61aec47e510aff43dfad"
+    },
+    {
+      "path": "docs/narrative/27_CHAPTER_09_PRODUCTION.md",
+      "bytes": 14943,
+      "sha256": "35e6a789c9159c4f43b8a0038cc2358b829797f15ee348d92e2c593565d7cf39"
+    },
+    {
+      "path": "docs/narrative/28_FULL_GAME_NARRATIVE_AUDIT.md",
+      "bytes": 6504,
+      "sha256": "9b53b97e52050fd315333f5df6b25940890990be0e2385ea48a8fd8889e367f2"
+    },
+    {
+      "path": "docs/narrative/RESEARCH_AND_SKILL_AUDIT.md",
+      "bytes": 2233,
+      "sha256": "41cdf93714d8f36d4c6bf0a3d8a70ad8d662ba6a0114731348bce775656f723e"
+    }
+  ]
+}

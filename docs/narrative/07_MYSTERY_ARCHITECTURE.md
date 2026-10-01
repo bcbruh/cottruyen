@@ -58,3 +58,7 @@ The Ninth is a repeated institutional role for uncredited after-hours responsibi
 
 ## Ontological ambiguity boundary
 The game never needs to prove whether the phenomenon is literally supernatural. It must prove that the phenomenon is real enough to alter player strategy and that its effects follow consistent rules.
+
+
+## Production state boundary
+C35 in Chapter 6 establishes `khang_signal_found` only. It does not open the final archive route. The final route requires the player to possess both historical-event knowledge and current-bearer knowledge and to explicitly test the hidden route in Chapter 9. This preserves the intended reveal order without changing canon.

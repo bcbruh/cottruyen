@@ -1,18 +1,20 @@
 # NGƯỜI THỨ CHÍN — NARRATIVE STATUS
 
 ## Current phase
-CORE NARRATIVE V1 COMPLETE / POST-AUDIT PACKAGE
+NARRATIVE PRODUCTION — CHAPTERS 1–9 COMPLETE / FULL-GAME AUDIT COMPLETE
 
 ## Last completed pass
-Full loop: Explore → Critique → Select → Canon → Timeline → Clue Graph → KCR Matrix → Playable Chapters → Red Team → Rewrite → Continuity Audit.
+Ch1 baseline preserved. Ch2–Ch9 elevated to production-ready scene specifications. Each chapter received a local narrative QA + continuity audit. Four production-level KCR trigger inconsistencies were found and resolved without changing core canon. Final full-game audit completed.
 
 ## Canon version
-NAR-CANON-v1.0
+`NAR-CANON-v1.0` — core mystery and historical canon unchanged.
+
+`NAR-PRODUCTION-v1.1` — chapter production detail and deterministic trigger refinements.
 
 ## Project understanding
-Người Thứ Chín is a first-person 3D non-combat psychological investigation/horror game set mainly in familiar Vietnamese spaces. Its identity is tactile investigation, authored mystery, environmental evidence, and Knowledge Changes Reality (KCR). The central mystery starts from a missing friend and an inconsistency that suggests nine people where records explain eight. The answer is deliberately not a conventional erased-schoolchild ghost.
+Người Thứ Chín is a first-person 3D non-combat psychological investigation/horror game set mainly in familiar Vietnamese spaces. Its identity is tactile investigation, authored mystery, environmental evidence, and Knowledge Changes Reality (KCR). The central mystery starts from a missing friend and an inconsistency that suggests nine people where records explain eight. The selected solution defines “the Ninth” as a repeated institutional role rather than a single erased student.
 
-The selected direction defines “the ninth” as an institutional role that has been repeatedly represented as if it were a stable person. The role was created during a past school incident to allow work and responsibility to exist without a named accountable participant. Multiple real students occupied it across time, so different sources can honestly point to different “ninths.” The supernatural layer begins when accumulated evidence makes the unacknowledged role narratively and physically resolvable in specific spaces. KCR therefore behaves like an authored state transition, not random haunting.
+The role carries after-hours operation, unofficial witnessing, evidence holding, and responsibility without formal attribution. Different real students occupied it across time. The 2012 event involving Phương, Minh and Vân is the historical anchor. Khang becomes the current witness-anchor while investigating the same role in 2026.
 
 ## Core theme
 **Khi một tập thể coi hồ sơ chính thức là phiên bản duy nhất của sự thật, việc xóa tên một người có thể biến thành việc xóa luôn trách nhiệm của chính tập thể đó.**
@@ -21,40 +23,48 @@ The selected direction defines “the ninth” as an institutional role that has
 **Một con người cần được bao nhiêu người nhớ và bao nhiêu dấu vết ghi nhận để việc họ từng tồn tại trở thành một sự thật không thể bị xóa?**
 
 ## Canonical status
-- Core mystery locked.
+- Core mystery locked and unchanged.
 - Main cast locked.
-- Past event locked.
-- KCR operational rules locked; ontological explanation intentionally unresolved at one layer.
-- Canonical timeline locked.
-- 36-clue graph drafted and cross-linked.
-- 8 KCR events drafted.
-- 9 playable chapters drafted.
-- Chapter 1 vertical slice drafted at production level.
-- Endings locked around evidence preservation, disclosure, and understanding states, not morality points.
-- QA and red-team passes completed.
+- 2012 historical event locked.
+- Ch1 vertical slice remains baseline.
+- Ch2–Ch9 production specifications complete.
+- 36-clue graph synchronized to production docs.
+- 8 KCR events synchronized with deterministic triggers.
+- Four production contradictions resolved in Decision Log NAR-DEC-011–014.
+- Four endings locked around evidence/preservation/witness states.
+- 38-question red-team set closed against current canon.
+- Full-game narrative audit complete.
 
 ## Open questions intentionally retained
-1. Is KCR a supernatural property of the archive/location, a social-cognitive phenomenon, or an emergent interaction between memory, records, and place? Canon requires the operational rules but leaves this ontological question interpretable.
-2. The exact visual representation of the Ninth in the final game is production-dependent, provided it follows the canonical identity-role rules.
+1. Is KCR a supernatural property of the archive/location, a social-cognitive phenomenon, or an emergent interaction between memory, records, and place? The operational rules are fixed; ontology remains interpretably ambiguous.
+2. Exact final visual representation of the Ninth is production-dependent, provided it follows the canonical identity-role rules and never becomes a generic monster.
 
-## Known weaknesses after final pass
-- The metaphysical layer can feel abstract if KCR is presented too often without physical evidence.
-- The institution's cover-up must stay mundane and procedural, not become a secret-cabal plot.
-- Chapter 5–6 need careful pacing to prevent “new location, same investigation” repetition.
-- The player should not be required to understand the full social-role theory before Chapter 8.
+## Known production watchpoints
+- KCR must remain concrete and evidence-linked; avoid abstract “magic explanation”.
+- The institution's cover-up must stay procedural, not become a secret cabal.
+- Ch5–Ch6 pacing is the main production risk and should be playtested for repeated investigation loops.
+- Ch7 confrontation should remain evidence-backed and avoid becoming a dialogue exposition dump.
+- Documents should be concise enough to inspect in play; key truths must have environmental/audio redundancy.
 
 ## Next action
-Translate narrative artifacts into engine-facing state IDs, interaction tasks, scene triggers, asset lists, and QA cases.
+Narrative is ready for implementation handoff. Next production layer is engine-facing integration: stable state IDs, interaction tasks, triggers, asset dependencies, save/load tests, dialogue/audio implementation, and playable QA.
 
-## Files to read on resume
-1. 00_NARRATIVE_STATUS.md
-2. 01_CORE_PILLARS.md
-3. 04_CANON_STORY.md
-4. 06_CANONICAL_TIMELINE.md
-5. 07_MYSTERY_ARCHITECTURE.md
-6. 08_CLUE_GRAPH.md
-7. 09_KCR_MATRIX.md
-8. 10_CHAPTER_BIBLE.md
-9. 11_CHAPTER_01_VERTICAL_SLICE.md
-10. 14_NARRATIVE_QA.md
-11. 15_DECISION_LOG.md
+## Resume order
+1. `00_NARRATIVE_STATUS.md`
+2. `01_CORE_PILLARS.md`
+3. `04_CANON_STORY.md`
+4. `06_CANONICAL_TIMELINE.md`
+5. `07_MYSTERY_ARCHITECTURE.md`
+6. `08_CLUE_GRAPH.md`
+7. `09_KCR_MATRIX.md`
+8. `10_CHAPTER_BIBLE.md`
+9. `11_CHAPTER_01_VERTICAL_SLICE.md`
+10. `20_CHAPTER_02_PRODUCTION.md` … `27_CHAPTER_09_PRODUCTION.md`
+11. `12_ENDINGS.md`
+12. `14_NARRATIVE_QA.md`
+13. `15_DECISION_LOG.md`
+14. `18_IMPLEMENTATION_HANDOFF.md`
+15. `28_FULL_GAME_NARRATIVE_AUDIT.md`
+
+## Repository sync note
+The baseline narrative package is present on `bcbruh/cottruyen` `main`. The active GitHub connector still rejects write operations with HTTP 403, so the Ch2–Ch9 production expansion in this working package is the current local handoff. No claim of a GitHub push is made for the new production files until repository write access is available.

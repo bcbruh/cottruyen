@@ -52,3 +52,36 @@ Test: three synthetic premise candidates. Result: passed structural and critical
 ## NAR-DEC-010 — External installation
 Decision: do not install/copy external skills into repository.
 Reason: project-local skill provides sufficient adapted methodology while avoiding license and scope conflicts.
+
+## NAR-DEC-011 — KCR-B trigger refinement during Ch5 production
+Old: KCR-B could be read as triggered by C15 alone when the player reached the stair route.
+New: `C15_discovered && phuong_testimony && player_at_historical_route`.
+Reason: a single security note is insufficient to justify a reality change under the project's cross-source evidence rule.
+Affected: Ch5 production spec, `09_KCR_MATRIX.md`, `18_IMPLEMENTATION_HANDOFF.md`, `14_NARRATIVE_QA.md`.
+Canon impact: none. This is a production trigger refinement.
+
+## NAR-DEC-012 — KCR-E moved from Ch7 to Ch8
+Old: Ch7 chapter outline implied KCR-E could occur after historical context was “confirmed”.
+New: KCR-E requires C33 raw-audio evidence plus a valid 2012 route reconstruction and therefore occurs in Ch8.
+Reason: C33 is the actual decisive evidence and was already owned by Ch8 in the clue graph.
+Affected: Ch7/Ch8 production specs, `09_KCR_MATRIX.md`, `10_CHAPTER_BIBLE.md`, `18_IMPLEMENTATION_HANDOFF.md`.
+Canon impact: none.
+
+## NAR-DEC-013 — KCR-F deferred despite early discovery of C35
+Old: C35 was listed as a KCR-F clue in the original matrix, creating an implied possibility that Ch6 could open the final route.
+New: Ch6 sets `khang_signal_found = true`; KCR-F additionally requires `knowledge_2012_incident`, `knowledge_khang_state`, and an explicit hidden-route attempt in Ch9.
+Reason: prevents a late-game spatial reveal from being reachable before the player understands the historical and current-witness layers.
+Affected: Ch6/Ch9 production specs, `09_KCR_MATRIX.md`, `10_CHAPTER_BIBLE.md`, `18_IMPLEMENTATION_HANDOFF.md`.
+Canon impact: none.
+
+## NAR-DEC-014 — KCR-H narrowed to witness-designation ending
+Old: KCR-H matrix wording implied the final packet could resolve merely from preserving evidence and listed Ending B/C.
+New: KCR-H only triggers when `evidence_complete && action_B_selected && witness_burden`.
+Reason: only the witness-designation action should create the present-day role assignment; preservation alone should not secretly assign it.
+Affected: Ch9 production spec, `09_KCR_MATRIX.md`, `12_ENDINGS.md`, `18_IMPLEMENTATION_HANDOFF.md`.
+Canon impact: none.
+
+## NAR-DEC-015 — Chapter 2–9 production expansion
+Decision: create dedicated production specifications `20`–`27` while preserving the Ch1 vertical slice as the baseline.
+Reason: the original chapter bible was not implementation-complete enough for scene-level production and required explicit entry/exit, evidence, recovery, knowledge, KCR, and QA contracts.
+Canon impact: none.
